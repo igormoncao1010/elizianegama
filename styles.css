@@ -685,6 +685,19 @@ header {
 
 
 
+.mobile-title-image {
+  display: none; /* esconde no desktop */
+  width: 400px;  /* tamanho fixo da imagem */
+  height: auto;
+  margin: 0 auto 10px auto;
+}
+
+@media (max-width: 576px) {
+  .mobile-title-image {
+    display: block; /* mostra só no mobile */
+  }
+}
+
 
 
 
